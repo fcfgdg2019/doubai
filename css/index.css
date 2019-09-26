@@ -1,3 +1,6 @@
+body{
+  height: 3000px;
+}
 *{
   margin: 0;
   padding: 0;
@@ -12,11 +15,71 @@ ul li{
   height: 28px;
   color: #d5d5d5;
   background-color: #545652;
+  font-size: 0;
 }
 .header ul li{
   font-size: 12px;
   display: inline-block;
+  line-height: 28px;
+}
+.header .header-left ul li{
+  float: left;
 }
 .header ul li a{
   color: #d5d5d5;
+  padding: 0 12px;
+  height: 28px;
+}
+.header ul li a:hover{
+  color: #fff;
+}
+.header .header-right ul li{
+  float: right;
+}
+.header .header-right ul .login{
+  margin: 0 12px 0 0;
+}
+.header .header-right ul .download{
+  margin-right: 5px;
+}
+.header .header-right ul .download a{
+  padding: 0 8px;
+}
+.nav{
+  width: 100%;
+  height: 115px;
+  background-color: skyblue;
+}
+.nav .nav-wrap{
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #e5ebe4;
+  background-color: green;
+}
+.nav .nav-wrap .nav-center{
+  width: 1040px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px 0 5px;
+  height: 59px;
+}
+.nav .nav-wrap .nav-center .nav-logo{
+  width: 145px;
+  height: 59px;
+  margin: 0 13px 0 0;
+  float: left;
+  background-color: red;
+}
+.nav .nav-wrap .nav-center .nav-search{
+  margin-left: 145px;
+  width: 895px;
+  height: 34px;
+  background-color: pink;
+  padding: 10px 0 15px 0;
+}
+.nav .nav-wrap .nav-secondary{
+  width: 1040px;
+  margin: 0 auto;
+  height: 40px;
+  background-color: blue;
 }
