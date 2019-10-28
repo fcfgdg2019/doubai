@@ -42,6 +42,7 @@
 .header .header-right ul .download a {
   padding: 0 8px;
 }
+
 /* 导航栏 */
 .nav {
   width: 100%;
@@ -156,6 +157,7 @@
   background-color: #37a;
   color: #fff;
 }
+
 /* 主体 */
 .wrap {
   width: 1040px;
@@ -167,7 +169,7 @@
 .wrap .content {
   width: 1040px;
   margin: 0 auto;
-  height: 2228px;
+  height: 2278px;
   /* background-color: #aaa; */
 }
 
@@ -181,7 +183,6 @@
 
 .wrap .content .content-left .screening {
   width: 100%;
-  height: 324px;
   /* background-color: skyblue; */
   margin-bottom: 36px;
 }
@@ -271,6 +272,39 @@
 
 .wrap .content .content-left .screening .screening-bd ul li img {
   width: 128px;
+}
+
+.wrap .content .content-left .fourth img {
+  float: left;
+  width: 350px;
+  height: 240px;
+  border: none;
+}
+
+.wrap .content .content-left .fourth .detail {
+  background: #F9F9F9;
+  position: relative;
+  width: 277px;
+  height: 168px;
+  padding: 48px 24px 24px 24px;
+  display: inline-block;
+}
+
+.wrap .content .content-left .fourth .detail .gallery-hd {
+  margin-bottom: 18px;
+}
+
+.wrap .content .content-left .fourth .detail .gallery-hd h3 {
+  color: #111;
+  line-height: 28px;
+  margin-left: 4px;
+  font: 18px Arial, Helvetica, sans-serif;
+}
+
+.wrap .content .content-left .fourth .detail .gallery-bd p {
+  font-size: 13px;
+  color: #999;
+  line-height: 20px;
 }
 
 .wrap .content .content-left .screening .tip {
@@ -594,12 +628,16 @@
 .wrap .footer {
   color: #999;
   padding: 6px 0;
-  margin-top: 40px;
+  margin-top: 100px;
   overflow: hidden;
   height: 19px;
   border-top: 1px dashed #ddd;
 }
+
 /* 尾部 */
+.footer{
+
+}
 .footer .sp-left {
   font-size: 12px;
   line-height: 1.62;
