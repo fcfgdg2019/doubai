@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+td,
+th {
+    font: 12px Helvetica, Arial, sans-serif;
+    line-height: 1.62;
+}
+
+a {
+    text-decoration: none;
+    color: #37a;
+    font-size: 15px;
+}
+
+ul li {
+    list-style: none
+}

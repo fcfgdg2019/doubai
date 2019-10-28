@@ -1,18 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #37a;
-  font-size: 15px;
-}
-
-ul li {
-  list-style: none
-}
-
+/* 头部 */
 .header {
   height: 28px;
   color: #d5d5d5;
@@ -56,7 +42,7 @@ ul li {
 .header .header-right ul .download a {
   padding: 0 8px;
 }
-
+/* 导航栏 */
 .nav {
   width: 100%;
   height: 115px;
@@ -151,14 +137,14 @@ ul li {
   position: absolute;
   left: 720px;
   top: 10px;
-    background: url(../images/annual_2018.png) center/contain no-repeat;
+  background: url(../images/annual_2018.png) center/contain no-repeat;
 }
 
 .nav .nav-secondary ul li {
   display: inline-block;
   font-size: 14px;
   line-height: 40px;
-  margin-right: 23px;
+  margin-right: 25px;
 }
 
 .nav .nav-secondary ul li a {
@@ -170,7 +156,7 @@ ul li {
   background-color: #37a;
   color: #fff;
 }
-
+/* 主体 */
 .wrap {
   width: 1040px;
   height: 2300px;
@@ -215,8 +201,76 @@ ul li {
   cursor: pointer;
   background: url(../images/slide_swithc_2.png) no-repeat;
 }
-.wrap .content .content-left .screening .botton a:nth-child(2){
+
+.wrap .content .content-left .screening .botton a:nth-child(2) {
   background-position: -18px 0;
+}
+
+.wrap .content .content-left .screening .screening-bd {
+  height: 270px;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrap .content .content-left .screening .screening-bd ul .image {
+  height: 161px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.wrap .content .content-left .screening .screening-bd ul {
+  display: inline-block;
+  margin-right: 25px;
+  width: 112px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.wrap .content .content-left .screening .screening-bd .ml {
+  margin-left: -6px;
+}
+
+.wrap .content .content-left .screening .screening-bd ul .title {
+  font-size: 14px;
+  height: 22px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.wrap .content .content-left .screening .screening-bd ul .title a {
+  color: #333;
+}
+
+.wrap .content .content-left .screening .screening-bd ul .tips {
+  text-align: center;
+}
+
+.wrap .content .content-left .screening .screening-bd ul .tips span {
+  font-size: 12px;
+  display: inline-block;
+  margin: 4px auto 2px;
+}
+
+.wrap .content .content-left .screening .screening-bd ul .btn span {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 90px;
+  height: 24px;
+  line-height: 24px;
+  background-color: #268dcd;
+  color: #fff;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.wrap .content .content-left .screening .screening-bd ul .btn span a {
+  color: #fff;
+  font-size: 12px;
+}
+
+.wrap .content .content-left .screening .screening-bd ul li img {
+  width: 128px;
 }
 
 .wrap .content .content-left .screening .tip {
@@ -264,65 +318,78 @@ ul li {
   /* background-color: green; */
 }
 
-.content .reviews .reviews-bt .review{
+.content .reviews .reviews-bt .review {
   height: 143px;
   margin-bottom: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #eaeaea;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eaeaea;
 }
+
 .content .reviews .reviews-bt .review-meta a,
-.content .reviews .reviews-bt .review-meta .pinglun{
+.content .reviews .reviews-bt .review-meta .pinglun {
   color: #666;
   text-decoration: none;
   font-size: 13px;
 }
-.content .reviews .reviews-bt .review-meta .star{
+
+.content .reviews .reviews-bt .review-meta .star {
   background-position: 0 0px;
   background: url(../images/ic_rating_s.png) no-repeat;
   display: inline-block;
   width: 55px;
-    height: 11px;
-    margin: 0 3px 0 0;
+  height: 11px;
+  margin: 0 3px 0 0;
 }
-.content .reviews .reviews-bt .review-content{
+
+.content .reviews .reviews-bt .review-content {
   line-height: 20px;
   font-size: 13px;
 }
-.content .reviews .reviews-bt .review-content a{
+
+.content .reviews .reviews-bt .review-content a {
   font-size: 13px;
 }
-.content .reviews .reviews-bt .review-content a:hover{
+
+.content .reviews .reviews-bt .review-content a:hover {
   background-color: #37a;
   color: #fff;
 }
-.content .reviews .reviews-bt .review:last-child{
+
+.content .reviews .reviews-bt .review:last-child {
   border-bottom: none;
 }
-.content .reviews .reviews-bt .review-hd{
+
+.content .reviews .reviews-bt .review-hd {
   width: 68px;
   float: left;
   height: 100px;
 }
-.content .reviews .reviews-bt .review-hd img{
+
+.content .reviews .reviews-bt .review-hd img {
   width: 68px;
 }
-.content .reviews .reviews-bt .review-bd{
+
+.content .reviews .reviews-bt .review-bd {
   padding-left: 83px;
 }
-.content .reviews .reviews-bt .review-bd h3 a{
+
+.content .reviews .reviews-bt .review-bd h3 a {
   font-weight: 400;
 }
-.content .reviews .reviews-bt .review-bd h3 a:hover{
+
+.content .reviews .reviews-bt .review-bd h3 a:hover {
   background-color: #37a;
   color: #fff;
 }
-.content .reviews .reviews-bt .review-bd .review-meta{
+
+.content .reviews .reviews-bt .review-bd .review-meta {
   padding: 5px 0;
 }
+
 .content .content-right {
   width: 300px;
   height: 1133px;
-  background-color: pink;
+  /* background-color: pink; */
   float: right;
 }
 
@@ -332,6 +399,14 @@ ul li {
   line-height: 1.5;
   background: #f2f7f6;
   height: 19px;
+  position: relative;
+}
+
+.content .content-right .aside-answer a {
+  font-size: 13px;
+  margin-bottom: -5px;
+  position: absolute;
+  top: 12px;
 }
 
 .content .content-right .aside-hot {
@@ -339,7 +414,26 @@ ul li {
   padding: 16px 0 16px 18px;
   line-height: 1.5;
   background: #f2f7f6;
-  height: 78px;
+}
+
+.content .content-right .aside-hot h2 {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  color: #072;
+}
+
+.content .content-right .aside-hot ul li {
+  margin-top: 8px;
+}
+
+.content .content-right .aside-hot ul li a {
+  font-size: 13px;
+}
+
+.content .content-right .aside-hot ul li a:hover {
+  background-color: #37a;
+  color: #fff;
 }
 
 .content .content-right .board {
@@ -348,18 +442,153 @@ ul li {
   margin-bottom: 50px;
 }
 
+.content .content-right .board table .number {
+  width: 20px;
+  font-size: 9px;
+  text-align: center;
+}
+
+.content .content-right .board table td {
+  padding: 7px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.content .content-right .board table .name {
+  width: 290px;
+}
+
+.content .content-right .board table .name a {
+  font-size: 13px;
+}
+
+.content .content-right .board table .name a:hover {
+  background-color: #37a;
+  color: #fff;
+}
+
+.content .content-right .board .board-hd h2 {
+  margin-bottom: 5px;
+  color: #111;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.content .content-right .board .board-bd ul li span {
+  width: 20px;
+  font-size: 9px;
+  text-align: center;
+}
+
 .content .content-right .db-list {
   margin-bottom: 40px;
-  height: 139px;
+}
+
+.content .content-right .db-list ul li {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.content .content-right .db-list ul li span {
+  font-size: 13px;
+  float: right;
+  color: #999;
+}
+
+.content .content-right .db-list h2 {
+  margin-bottom: 10px;
+}
+
+.content .content-right .db-list ul li .title {
+  width: 247px;
+}
+
+.content .content-right .db-list ul li .title a {
+  font-size: 13px;
+}
+
+.content .content-right .db-list ul li .title a:hover {
+  background-color: #37a;
+  color: #fff;
 }
 
 .content .content-right .cooperation {
   height: 125px;
 }
 
+.content .content-right .cooperation .email ul li {
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.content .content-right .cooperation .email ul li img {
+  height: 14px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+
+.content .content-right .cooperation .email ul li .new {
+  height: auto;
+}
+
 .content .content-right .app {
   margin-bottom: 40px;
   height: 137px;
+}
+
+.content .content-right .app ul li {
+  width: 60px;
+  float: left;
+  font-size: 12px;
+  text-align: center;
+}
+
+.content .content-right .app ul li .weibo {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 5px auto;
+  background-image: url(../images/home_weibo.png);
+}
+
+.content .content-right .app ul li .weixin {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 5px auto;
+  background-image: url(../images/home_weixin.png);
+}
+
+.content .content-right .app ul li .banzuo {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 5px auto;
+  background-image: url(../images/bite_me@2x.jpg);
+}
+
+.content .content-right .app ul li .yingren {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 5px auto;
+  background-image: url(../images/home_film_pro@2x.jpg);
+}
+
+.content .content-right .app ul li .guanyin {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 5px auto;
+  background-image: url(../images/home_club@2x.jpg);
+}
+
+.content .content-right .app ul li .link {
+  font-size: 12px;
+}
+
+.content .content-right .app ul li .link:hover {
+  background-color: #37a;
+  color: #fff;
 }
 
 .wrap .footer {
@@ -369,4 +598,23 @@ ul li {
   overflow: hidden;
   height: 19px;
   border-top: 1px dashed #ddd;
+}
+/* 尾部 */
+.footer .sp-left {
+  font-size: 12px;
+  line-height: 1.62;
+  float: left;
+}
+
+.footer .sp-right {
+  float: right;
+}
+
+.footer .sp-right a {
+  font-size: 12px;
+}
+
+.footer .sp-right a:hover {
+  background-color: #37a;
+  color: #fff;
 }
